@@ -9,11 +9,11 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  EXTERNAL_FILE: configs/luci/Standard.config
-  CONFIG_FILE: configs/x86_64.config
+  EXTERNAL_FILE: configs/luci/Lite.config
+  CONFIG_FILE: configs/x86.diff.config
   SYS_CONF_SH: configure.sh
   PACKS: package.sh
-  EXTEND_DRIVER: true
+  EXTEND_DRIVER: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
@@ -82,7 +82,7 @@ jobs:
 
     - name: Modify configuration
       run: |
-        cat $EXTERNAL_FILE >> openwrt/.config
+        # cat $EXTERNAL_FILE >> openwrt/.config
         cd openwrt && make defconfig
         sed -i '/CONFIG_DEFAULT_luci/'d .config
         cat .config

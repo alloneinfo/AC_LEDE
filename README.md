@@ -1,13 +1,6 @@
 # Action Openwrt 云自动编译
 ⏰ **每周自动拉取最新源码自动编译**
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-<br />
 
 <p align="center">
   <a href="https://github.com/alloneinfo/AC_LEDE">
@@ -42,18 +35,18 @@
     - [注意事项](#注意事项)
   - [固件预览](#固件预览)
   - [版权说明](#版权说明)
-  - [项目支持](#项目支持)
-  - [Stargazers over time](#stargazers-over-time)
+  - [项目支持](#项目支持)  
 
 <br>
 
 
 ## 支持的设备
-🎯 带应用商店的固件：`x86Lite`
+🎯 带应用商店的固件：
 |           支持的设备        |         固类别         |        Action         |            状态          |              下载页          |
 | :------------------------: | :---------------------: | :-------------------: | :-------------------: | :--------------------------: |
 |             x86_64                    |  [LEDE](https://github.com/coolsnowwolf/lede) |[🍕](https://github.com/alloneinfo/AC_LEDE/actions/workflows/x86_64.yml) | ![x86_64](https://github.com/alloneinfo/AC_LEDE/actions/workflows/x86_64.yml/badge.svg) |  [✔](https://github.com/alloneinfo/AC_LEDE/releases) |
-|             Orange Pi R1 Plus LTS         |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/alloneinfo/AC_LEDE/actions/workflows/Rockchip.yml) | ![OrangePiR1](https://github.com/alloneinfo/AC_LEDE/actions/workflows/Rockchip.yml/badge.svg) | [✔](https://github.com/alloneinfo/AC_LEDE/releases) |
+|             Orange Pi R1 Plus LTS         |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/alloneinfo/AC_LEDE/actions/workflows/r1.yml) | ![OrangePiR1](https://github.com/alloneinfo/AC_LEDE/actions/workflows/r1.yml/badge.svg) | [✔](https://github.com/alloneinfo/AC_LEDE/releases) |
+|             OCP Hilink H28K         |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/alloneinfo/AC_LEDE/actions/workflows/h28k.yml) | ![OrangePiR1](https://github.com/alloneinfo/AC_LEDE/actions/workflows/h28k.yml/badge.svg) | [✔](https://github.com/alloneinfo/AC_LEDE/releases) |
 
 <br>
 

@@ -19,10 +19,10 @@ jobs:
       uses: actions/checkout@v4
       
     - name: AutoTrigger
-      uses: bigbugcc/ActionBot@main
+      uses: alloneinfo/ActionBot@main
 
     - name: Delete workflow runs
-      uses: bigbugcc/delete-workflow-runs@main
+      uses: alloneinfo/delete-workflow-runs@main
       with:
         keep_minimum_runs: 1
 

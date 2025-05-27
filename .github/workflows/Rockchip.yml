@@ -82,10 +82,10 @@ jobs:
 
     - name: Modify configuration
       run: |
-        cat $EXTERNAL_FILE >> openwrt/.config
+        # cat $EXTERNAL_FILE >> openwrt/.config
         cd openwrt && make defconfig
         sed -i '/CONFIG_DEFAULT_luci/'d .config
-        cat .config
+        # cat .config
 
     - name: Download package
       id: package

@@ -18,13 +18,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       
-    - name: AutoTrigger
-      uses: alloneinfo/ActionBot@main
+    # - name: AutoTrigger
+    #   uses: alloneinfo/ActionBot@main
 
-    - name: Delete workflow runs
-      uses: alloneinfo/delete-workflow-runs@main
-      with:
-        keep_minimum_runs: 1
+    # - name: Delete workflow runs
+    #   uses: alloneinfo/delete-workflow-runs@main
+    #   with:
+    #     keep_minimum_runs: 1
 
     - name: Remove old Releases
       uses: dev-drprasad/delete-older-releases@v0.2.0

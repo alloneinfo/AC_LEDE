@@ -9,8 +9,8 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  EXTERNAL_FILE: configs/luci/Lite.config
-  CONFIG_FILE: configs/h28k.diff.config
+  EXTERNAL_FILE: configs/luci/4Diy.config
+  CONFIG_FILE: configs/h28k.config
   SYS_CONF_SH: configure.sh
   PACKS: package.sh
   EXTEND_DRIVER: false

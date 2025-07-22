@@ -65,7 +65,8 @@ jobs:
       uses: stupidloud/cachewrtbuild@main
       with:
           ccache: 'true'
-          mixkey: 'x86'
+          # mixkey: 'armv8'
+          mixkey: 'x86' 
           prefix: 'openwrt'
 
     - name: 加载自定义源 Load custom feeds

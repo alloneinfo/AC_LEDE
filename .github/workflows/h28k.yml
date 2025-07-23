@@ -1,4 +1,4 @@
-name: OCP-H28K_diff
+name: OCP-H28K
 
 on:
   repository_dispatch:

@@ -1,11 +1,11 @@
-name: OCP-H28K
+name: OCP-H28K_diff-pw2
 
 on:
   repository_dispatch:
   workflow_dispatch:
 
 env:
-  OPNAME: 'OCP-H28K_使用单一diff'
+  OPNAME: 'OCP-H28K_diff-pw2'
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default

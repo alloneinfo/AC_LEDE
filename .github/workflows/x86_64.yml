@@ -1,4 +1,4 @@
-name: x86_64
+name: x86_64_passwall2
 
 on:
   repository_dispatch:

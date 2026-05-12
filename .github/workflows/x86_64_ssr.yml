@@ -1,4 +1,4 @@
-name: x86_64
+name: x86_64_ssr
 
 on:
   repository_dispatch:

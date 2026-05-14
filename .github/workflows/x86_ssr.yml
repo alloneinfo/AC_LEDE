@@ -1,4 +1,4 @@
-name: x86_64_ssr
+name: x86_ssr-plus
 
 on:
   repository_dispatch:
@@ -9,7 +9,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  DIFFCONF_FILE: configs/x86.diff.ssr.config
+  DIFFCONF_FILE: configs/x86.ssr.diff.config
   SYS_CONF_SH: feeds_add.sh
   PACKS: package.sh
   EXTEND_DRIVER: false

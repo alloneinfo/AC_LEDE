@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 env:
-  OPNAME: 'x86_64-使用单一diff'
+  OPNAME: 'x86_64-passwall2'
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
